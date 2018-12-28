@@ -1,5 +1,5 @@
 {
-  "name": "rinteger-crm-service",
+  "name": "lencott-crm-service",
   "version": "1.0.0",
   "description": "CRM Service",
   "main": "server.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RIntegerB2B/CRMService.git"
+    "url": "git+https://github.com/RIntegerB2B/CRMServiceLencott.git"
   },
   "author": "RInteger",
   "license": "ISC",
@@ -33,7 +33,7 @@
     "web-push": "^3.3.2"
   },
   "bugs": {
-    "url": "https://github.com/RIntegerB2B/CRMService/issues"
+    "url": "https://github.com/RIntegerB2B/CRMServiceLencott/issues"
   },
-  "homepage": "https://github.com/RIntegerB2B/CRMService#readme"
+  "homepage": "https://github.com/RIntegerB2B/CRMServiceLencott#readme"
 }
