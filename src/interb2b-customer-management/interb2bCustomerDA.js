@@ -174,7 +174,6 @@ exports.interB2bCustomerDuplicateData = function (req, res) {
                     message: "Some error occurred while retrieving notes."
                 });
             } else {
-                console.log('duplicateDetails: ', duplicateData);
                 res.status(200).json(duplicateData)
             }
         });

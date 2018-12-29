@@ -51,7 +51,6 @@ exports.findSmsDetails = function (req, res) {
       });
     } else {
       res.status(200).json(allSmsDetails);
-      console.log(allSmsDetails);
     }
   });
 };
