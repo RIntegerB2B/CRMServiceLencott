@@ -183,12 +183,8 @@ exports.customerDuplicateData = function (req, res) {
                     message: "Some error occurred while retrieving notes."
                 });
             } else {
-                for (var j = duplicatePhoneNos.length ; j <= duplicateData.length; j++) {
-                    secondDuplicateNo.push(duplicateData[j]);
-                    console.log(secondDuplicateNo);
-                }
-                console.log('duplicateDetails: ', secondDuplicateNo);
-                res.status(200).json(secondDuplicateNo);
+                console.log('duplicateDetails: ', duplicateData);
+                res.status(200).json(duplicateData);
 
             }
 
